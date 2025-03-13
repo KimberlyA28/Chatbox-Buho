@@ -20,8 +20,6 @@
    ```sh
    git clone https://github.com/KimberlyA28/Chatbox-Buho.git
    ```
-2. Abre `index.html` en un navegador.
-3. Disfruta de la aplicación interactiva.
 
 ---
 
@@ -35,14 +33,14 @@
 
 ## Créditos
 
-Desarrollado por [KimberlyA28](https://github.com/KimberlyA28/Chatbox-Buho.git).
+Desarrollado por [KimberlyA28](https://github.com/KimberlyA28).
 
 ---
 
 ### **Notas sobre las Imágenes**
 
-- ![img-1](img-mockup/img-1.webp): Muestra el diseño completo, representa el diseño original del mockup, el cual fue la base para la maquetación.
+- Diseño Completo: Esta imagen muestra el diseño original del mockup, que sirvió como base para la maquetación.![img-1](img-mockup/img-1.webp)
 
-- ![Img-mokup1](img-mockup/Img-mokup1.png): Muestra el diseño realizado por mi, por partes.
+- Diseño Parcial: Aquí se muestra el diseño realizado hasta el momento, dividido en partes para un mejor enfoque visual.![Img-mokup1](img-mockup/Img-mokup1.png)
 
-- ![img-mokup2](img-mockup/img-mokup2.png): Vista general del diseño final, con todos las modificaciones que se pidio (animacion y traducciona español)
+- Vista Final del Diseño: Esta imagen presenta la versión final del diseño, con todas las modificaciones solicitadas, incluyendo animaciones y la traducción al español. ![img-mokup2](img-mockup/img-mokup2.png): 
