@@ -39,8 +39,14 @@ Desarrollado por [KimberlyA28](https://github.com/KimberlyA28).
 
 ### **Notas sobre las Imágenes**
 
-- Diseño Completo: Esta imagen muestra el diseño original del mockup, que sirvió como base para la maquetación.![img-1](img-mockup/img-1.webp)
+- Diseño Completo: Esta imagen muestra el diseño original del mockup, que sirvió como base para la maquetación.
 
-- Diseño Parcial: Aquí se muestra el diseño realizado hasta el momento, dividido en partes para un mejor enfoque visual.![Img-mokup1](img-mockup/Img-mokup1.png)
+![img-1](img-mockup/img-1.webp)
 
-- Vista Final del Diseño: Esta imagen presenta la versión final del diseño, con todas las modificaciones solicitadas, incluyendo animaciones y la traducción al español. ![img-mokup2](img-mockup/img-mokup2.png): 
+- Diseño Parcial: Aquí se muestra el diseño realizado hasta el momento, dividido en partes para un mejor enfoque visual.
+
+![Img-mokup1](img-mockup/Img-mokup1.png)
+
+- Vista Final del Diseño: Esta imagen presenta la versión final del diseño, con todas las modificaciones solicitadas, incluyendo animaciones y la traducción al español.
+
+![img-mokup2](img-mockup/img-mokup2.png)
