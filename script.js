@@ -2,7 +2,7 @@ let currentCardIndex = 0;
 
 export function InicializarAOS() {
   AOS.init({
-    duration: 1000,
+    duration: 1500,
     easing: "ease-in-out",
     once: false,
     mirror: true,
