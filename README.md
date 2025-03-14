@@ -20,6 +20,10 @@
    ```sh
    git clone https://github.com/KimberlyA28/Chatbox-Buho.git
    ```
+2. Por Ngrok
+   ```sh
+   http://localhost:5501/
+   ```
 
 ---
 
