@@ -22,6 +22,8 @@ body {
     overflow-x: hidden;
 }
 
+/* HEADER */
+
 .head-line {
     padding: 1rem 2rem;
     background-color: rgba(1, 77, 254, 1);
@@ -83,6 +85,8 @@ body {
     background-color: #014DFE;
     color: #FFFFFF;
 }
+
+/* HERO SECTION */
 
 .hero {
     display: grid;
@@ -175,6 +179,119 @@ body {
 
 .btn-special-type:hover #icon-apple-store {
     filter: none;
+}
+
+/* RESPONSIVE HERO */
+@media screen and (max-width: 1200px) {
+    .hero {
+        grid-template-columns: 1fr;  /* Switch to a single column layout for medium screens */
+        padding: 60px 10px;
+    }
+
+    .hero-section:first-child {
+        font-size: 2.5rem;
+    }
+
+    .hero-sub-section:first-child span {
+        font-size: 1rem;
+    }
+
+    .btn-special-type {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .list-container-order {
+        gap: 1.5rem;
+    }
+
+    .container-header span a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-header {
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .hero-section:first-child {
+        font-size: 2rem;
+        max-width: 100%;
+    }
+
+    .hero-sub-section:first-child span {
+        font-size: 1rem;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .btn-general-type {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .list-container-order {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .list-element {
+        font-size: 1rem;
+    }
+
+    .container-header img {
+        width: 40px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        padding: 30px 10px;
+    }
+
+    .hero-section:first-child {
+        font-size: 1.8rem;
+        max-width: 100%;
+    }
+
+    .hero-sub-section:first-child span {
+        font-size: 0.9rem;
+    }
+
+    .btn-general-type {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
+    .bar {
+        padding: 10px 15px;
+    }
+
+    .container-header img {
+        width: 30px;
+        margin-right: 8px;
+    }
+
+    .list-container-order {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .list-element {
+        font-size: 1rem;
+    }
 }
 
 .section {
@@ -396,6 +513,151 @@ body {
 .btn-general-type {
     padding: 14px 28px;
     font-size: 1.1rem;
+}
+
+/* Media Queries para Responsividad */
+
+/* Móviles (pantallas pequeñas) */
+@media (max-width: 768px) {
+    .hero-section:first-child {
+        font-size: 2.5rem;
+    }
+    .hero-section:last-child {
+        max-width: 100%;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .head-line {
+        padding: 10px 15px;
+    }
+
+    .btn-size-small {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    .btn-size-medium {
+        padding: 12px 24px;
+        font-size: 12px;
+    }
+
+    .btn-size-large {
+        padding: 16px 32px;
+        font-size: 12px;
+    }
+
+    .font-small {
+        font-size: 9px;
+    }
+
+    .font-small-medium {
+        font-size: 14px;
+    }
+
+    .font-medium {
+        font-size: 18px;
+    }
+
+    .font-large {
+        font-size: 25px;
+    }
+
+    .font-extra-large {
+        font-size: 30px;
+    }
+}
+
+/* Tabletas (pantallas medianas) */
+@media (max-width: 1024px) {
+    .hero-section:first-child {
+        font-size: 3rem;
+    }
+    .hero-section:last-child {
+        max-width: 500px;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+
+    .head-line {
+        padding: 15px 20px;
+    }
+
+    .btn-size-medium {
+        padding: 14px 28px;
+        font-size: 13px;
+    }
+
+    .btn-size-large {
+        padding: 18px 36px;
+        font-size: 14px;
+    }
+
+    .font-small-medium {
+        font-size: 15px;
+    }
+
+    .font-medium {
+        font-size: 20px;
+    }
+
+    .font-large {
+        font-size: 28px;
+    }
+
+    .font-extra-large {
+        font-size: 35px;
+    }
+}
+
+/* Escritorio (pantallas grandes) */
+@media (min-width: 1025px) {
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .hero-section:first-child {
+        font-size: 3.5rem;
+    }
+
+    .hero-section:last-child {
+        max-width: 600px;
+    }
+
+    .head-line {
+        padding: 20px 30px;
+    }
+
+    .btn-size-medium {
+        padding: 14px 28px;
+        font-size: 14px;
+    }
+
+    .btn-size-large {
+        padding: 18px 36px;
+        font-size: 14px;
+    }
+
+    .font-small-medium {
+        font-size: 16px;
+    }
+
+    .font-medium {
+        font-size: 21px;
+    }
+
+    .font-large {
+        font-size: 31px;
+    }
+
+    .font-extra-large {
+        font-size: 37px;
+    }
 }
 
 /* Sección IMG */
