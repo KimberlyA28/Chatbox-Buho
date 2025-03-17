@@ -34,6 +34,7 @@ Este repositorio implementa un diseño web responsivo basado en un mockup utiliz
 2. Por Web
    ```sh
    http://elienekimberly.digital/
+   35.239.147.240
    ```
 
 ---
